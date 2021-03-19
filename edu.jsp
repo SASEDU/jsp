@@ -165,12 +165,6 @@
 			<p class="help-block">Dozwolone użycie znaków _ oraz %</p>
 		</div>
 		<div class="form-group">
-			<label class="control-label" for="e_certificate_title">Tytuł szkolenia</label>
-			<div class="input-group col-sm-12" id="e_certificate_title">
-				<input type="text" class="form-control" value="" placeholder="Wpisz tytuł jeśli jest inny niż w IRISie">
-			</div>
-		</div>
-		<div class="form-group">
 			<label class="control-label" for="e_certificate_location">Lokalizacja szkolenia</label>
 			<div class="input-group col-sm-12" id="e_certificate_location">
 				<input type="text" class="form-control" value="Live Web, SAS Institute">
