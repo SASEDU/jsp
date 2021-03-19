@@ -73,7 +73,7 @@
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="control-label" for="zoom_address">Link do Zoom'a</label>
+			<label class="control-label" for="zoom_address">Link do Zomma lub Webexa (jeśli inny niż z GLWC)</label>
 			<div class="input-group col-sm-12" id="zoom_address">
 				<input type="text" class="form-control" placeholder="Wpisz link do Zoom'a jeśli szkolenie zdalne...">
 			</div>
