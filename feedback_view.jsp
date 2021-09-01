@@ -10,6 +10,55 @@
   </tr>
 <thead>
 <tbody>
+  <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/60052.html');" style="cursor: pointer;">
+    <th>60052</th>
+    <td>LWREG</td>
+    <td>Joanna Nawalany</td>
+    <td>14/04/2021</td>
+    <td>14/04/2021</td>
+  </tr>
+  <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/60028.html');" style="cursor: pointer;">
+    <th>60028</th>
+    <td>LWPRG</td>
+    <td>Katarzyna Wyszomierska</td>
+    <td>12/04/2021</td>
+    <td>13/04/2021</td>
+  </tr>
+  <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/60029.html');" style="cursor: pointer;">
+    <th>60029</th>
+    <td>LWPRG</td>
+    <td>Joanna Nawalany</td>
+    <td>12/04/2021</td>
+    <td>13/04/2021</td>
+  </tr>
+  <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/59956.html');" style="cursor: pointer;">
+    <th>59956</th>
+    <td>LWMC1V2</td>
+    <td>Katarzyna Wyszomierska</td>
+    <td>08/04/2021</td>
+    <td>09/04/2021</td>
+  </tr>
+  <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/59737.html');" style="cursor: pointer;">
+    <th>59737</th>
+    <td>LWPRG</td>
+    <td>Katarzyna Wyszomierska</td>
+    <td>25/03/2021</td>
+    <td>26/03/2021</td>
+  </tr>
+  <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/59578.html');" style="cursor: pointer;">
+    <th>59578</th>
+    <td>LWSPAUM6</td>
+    <td>Katarzyna Wyszomierska</td>
+    <td>17/03/2021</td>
+    <td>19/03/2021</td>
+  </tr>
+  <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/59547.html');" style="cursor: pointer;">
+    <th>59547</th>
+    <td>LWPG1V2</td>
+    <td>Joanna Nawalany</td>
+    <td>16/03/2021</td>
+    <td>18/03/2021</td>
+  </tr>
   <tr onclick="window.open('http://splendid.emea.sas.com/doc/feedback/59314.html');" style="cursor: pointer;">
     <th>59314</th>
     <td>LWSAVI35</td>
