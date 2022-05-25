@@ -174,7 +174,7 @@
 			<hr>
 
 			<footer>
-				<p>&copy; Centrum Szkoleniowe SAS 2020</p>
+				<p>&copy; Centrum Szkoleniowe SAS 2022</p>
 			</footer>
 		</div> <!-- /container -->
 		
