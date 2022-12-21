@@ -6,16 +6,11 @@
 			<iframe src="/doc/sas_ihub_kalendarz.pdf" width="600px" height="455px">
 			</iframe>
 		</div>
-<!--	<div class="well">
-		<h2>Kalendarz szkoleń (grafik) - test</h2>	
+		<div class="input-group" id="calendar_start_date" data-date-format="DDMMMYYYY">
+			<input type="text" class="form-control" placeholder="Wybierz datę od...">
+			<span class="input-group-addon"><span class="glyphicon-calendar glyphicon"></span>
+		</div></br>
 		<div class="form-group">
-			<label class="control-label" for="calendar_date">Data</label>
-			<div class="input-group" id="calendar_date" data-date-format="DDMMMYYYY">
-				<input type="text" class="form-control" placeholder="Wybierz datę...">
-				<span class="input-group-addon"><span class="glyphicon-calendar glyphicon"></span>
-				</span>
-			</div>
-		</div>
 		<div class="form-group">
 			<label class="control-label" for="calendar_format">Format</label>
 			<div class="input-group" id="calendar_format">
@@ -27,23 +22,17 @@
 				</label>
 			</div>
 		</div>
-		<div class="form-group">
 			<div class="btn-group btn-group-justified">
 				<div class="btn-group">
 					<button type="button" class="btn btn-default" onclick="calendar_weekly()">
-						<span class="glyphicon glyphicon-file"></span> Tygodniowy 
+						<span class="glyphicon glyphicon-file"></span> Tygodniowy dla recepcji (stacjonarne) 
 					</button>
 				</div>
 			</div>
 		</div>
-	</div> -->
-		<div class="input-group" id="calendar_start_date" data-date-format="DDMMMYYYY">
-			<input type="text" class="form-control" placeholder="Wybierz datę od...">
-			<span class="input-group-addon"><span class="glyphicon-calendar glyphicon"></span>
-		</div></br>
 		<div class="btn-group btn-group-justified">
 			<div class="btn-group">
-				<button type="button" class="btn btn-default" onclick="calendar_monthly_status()">
+				<button type="button" class="btn btn-default" onclick="calendar_monthly_excel()">
 					<span class="glyphicon glyphicon-file"></span> Pobierz kalendarz na najbliższy miesiąc (szkolenia aktywne i oczekujące)
 				</button>
 			</div>
@@ -51,6 +40,17 @@
 	</div>
 	<div class="well">
 		<h2>Zaproszenia na szkolenia</h2>
+		<label class="control-label" for="invitation_language">Język zaproszenia</label>
+		<div class="input-group" id="invitation_language">
+			<label class="radio-inline">
+				<input type="radio" name="invitation_language" id="invitation_language_PL" value="PL" checked> Polski
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="invitation_language" id="invitation_language_EN" value="EN"> Angielski
+			</label>
+			<p></p>
+		</br>
+		</div>
 		<label class="control-label" for="invitation_format">Format</label>
 		<div class="input-group" id="invitation_format">
 			<label class="radio-inline">
