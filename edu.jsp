@@ -1,7 +1,6 @@
 ﻿<div class="col-md-12">
 	<div class="well">
-		<h2>Najbliższe szkolenia</h2>
-		
+		<h2>Najbliższe szkolenia</h2>	
 		<div class="form-group">
 			<iframe src="/doc/sas_ihub_kalendarz.pdf" width="600px" height="455px">
 			</iframe>
@@ -33,7 +32,21 @@
 		<div class="btn-group btn-group-justified">
 			<div class="btn-group">
 				<button type="button" class="btn btn-default" onclick="calendar_monthly_excel()">
-					<span class="glyphicon glyphicon-file"></span> Pobierz kalendarz na najbliższy miesiąc (szkolenia aktywne i oczekujące)
+					<span class="glyphicon glyphicon-file"></span> Pobierz kalendarz w formacie Excel (szkolenia aktywne i oczekujące)
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="well">
+		<h2>Informacje organizacyjne</h2>
+		<div class="form-group">
+			<iframe src="/doc/sas_operations_stats.html" width="600px" height="455px">
+			</iframe>
+		</div>
+		<div class="btn-group btn-group-justified">
+			<div class="btn-group">
+				<button type="button" class="btn btn-default" onclick="operations_stats()">
+					<span class="glyphicon glyphicon-refresh"></span> Odśwież dane
 				</button>
 			</div>
 		</div>
