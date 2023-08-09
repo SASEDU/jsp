@@ -75,6 +75,17 @@
 			<p></p>
 		</br>
 		</div>
+		<label class="control-label" for="invitation_localization">Szkolenie w SAS czy u klienta</label>
+		<div class="input-group" id="invitation_localization">
+			<label class="radio-inline">
+				<input type="radio" name="invitation_localization" id="invitation_SAS" value="SAS" checked> SAS iHub
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="invitation_localization" id="invitation_external" value="EXTERNAL"> U klienta
+			</label>
+			<p></p>
+		</br>
+		</div>
 		<div class="form-group">
 			<label class="control-label" for="invitation_date">Data szkolenia</label>
 			<div class="input-group" id="invitation_date" data-date-format="DDMMMYYYY">
